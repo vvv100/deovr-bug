@@ -1,0 +1,498 @@
+Mono path[0] = 'D:/steam/steamapps/common/DeoVR Video Player/DeoVR_Data/Managed'
+Mono config path = 'D:/steam/steamapps/common/DeoVR Video Player/MonoBleedingEdge/etc'
+Initialize engine version: 2020.3.42f1 (7ade1201f527)
+[Subsystems] Discovering subsystems at path D:/steam/steamapps/common/DeoVR Video Player/DeoVR_Data/UnitySubsystems
+[Subsystems] No descriptors matched for  examples in UnitySubsystems/OculusXRPlugin/UnitySubsystemsManifest.json.
+[Subsystems] 1 'inputs' descriptors matched in UnitySubsystems/OculusXRPlugin/UnitySubsystemsManifest.json
+[Subsystems] 1 'displays' descriptors matched in UnitySubsystems/OculusXRPlugin/UnitySubsystemsManifest.json
+[Subsystems] No descriptors matched for  meshings in UnitySubsystems/OculusXRPlugin/UnitySubsystemsManifest.json.
+[Subsystems] No descriptors matched for  examples in UnitySubsystems/XRSDKOpenVR/UnitySubsystemsManifest.json.
+[Subsystems] 1 'inputs' descriptors matched in UnitySubsystems/XRSDKOpenVR/UnitySubsystemsManifest.json
+[Subsystems] 1 'displays' descriptors matched in UnitySubsystems/XRSDKOpenVR/UnitySubsystemsManifest.json
+[Subsystems] No descriptors matched for  meshings in UnitySubsystems/XRSDKOpenVR/UnitySubsystemsManifest.json.
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 Ti SUPER (ID=0x2705)
+    Vendor:   
+    VRAM:     16063 MB
+    Driver:   31.0.15.5152
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.049 seconds
+ERROR: Shader Unlit/ProjectionShaderOES shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+XRGeneral Settings awakening...
+[XR] OculusXRPlugin: registering subsystems
+[Subsystems] OculusXRPlugin successfully registered Provider for oculus display
+[XR] Oculus Input lifecycle provider registered.
+[Subsystems] OculusXRPlugin successfully registered Provider for oculus input
+[Subsystems] OculusXRPlugin successfully registered Provider for oculus display
+[XR] Oculus settings : 
+	Shared Depth Buffer: Yes
+	Dash Support: Yes
+	Requested Stereo Rendering Mode Multi Pass
+	Color Space: Gamma
+	Low Overhead Mode: No
+	Optimize Buffer Discards: Yes
+	Phase Sync: No
+	Symmetric Projection: Yes
+	Subsampled Layout: No
+	Late Latching: No
+	Late Latching Debug: No
+	Enable TrackingOrigin Stage Mode: No
+[Subsystems] Loading plugin OculusXRPlugin for subsystem oculus display...
+[Subsystems] Loading plugin OculusXRPlugin for subsystem oculus input...
+<RI> Initializing input.
+New input system (experimental) initialized
+Using XInput
+<RI> Input initialized.
+<RI> Initialized touch support.
+[XR] Oculus XR Plugin Display Start
+[XR] Unity will render to eye texture(s) of format: Separate
+[XR] The Oculus eye layer has texture(s) of format: Separate
+Bootstrap is configuring
+Bootstrap is configured
+[XR] Rendering directly to eye textures.
+XRTextureManager::RequestCreateTexture
+XRTextureManager::RequestCreateTexture
+XRTextureManager::RequestCreateTexture
+XRTextureManager::RequestCreateTexture
+XRTextureManager::RequestCreateTexture
+XRTextureManager::RequestCreateTexture
+[XR] More than 4 points[XR] More than 4 pointsXRTextureManager::SetupRenderTextureFromXRRequest (id: 1 col: 000001B3CF3D16B8 d: 000001B3CF3D1178 sr: 0000000000000000)
+RenderTexture::Create (id: 1)
+IVRDeviceCallback_CreateEyeTextureResources 000001B3CF3D16B8
+IVRDeviceCallback_CreateEyeTextureResources 000001B3CF3D1178
+XRTextureManager::SetupRenderTextureFromXRRequest (id: 2 col: 000001B3CF3D2E38 d: 000001B3CF3D2678 sr: 0000000000000000)
+RenderTexture::Create (id: 2)
+IVRDeviceCallback_CreateEyeTextureResources 000001B3CF3D2E38
+IVRDeviceCallback_CreateEyeTextureResources 000001B3CF3D2678
+XRTextureManager::SetupRenderTextureFromXRRequest (id: 3 col: 000001B3CF3D2BB8 d: 000001B3CF3D1E78 sr: 0000000000000000)
+RenderTexture::Create (id: 3)
+IVRDeviceCallback_CreateEyeTextureResources 000001B3CF3D2BB8
+IVRDeviceCallback_CreateEyeTextureResources 000001B3CF3D1E78
+XRTextureManager::SetupRenderTextureFromXRRequest (id: 4 col: 000001B3CF3D1BF8 d: 000001B3CF51A978 sr: 0000000000000000)
+RenderTexture::Create (id: 4)
+IVRDeviceCallback_CreateEyeTextureResources 000001B3CF3D1BF8
+IVRDeviceCallback_CreateEyeTextureResources 000001B3CF51A978
+XRTextureManager::SetupRenderTextureFromXRRequest (id: 5 col: 000001B3CF3D1938 d: 000001B3CF3D23B8 sr: 0000000000000000)
+RenderTexture::Create (id: 5)
+IVRDeviceCallback_CreateEyeTextureResources 000001B3CF3D1938
+IVRDeviceCallback_CreateEyeTextureResources 000001B3CF3D23B8
+XRTextureManager::SetupRenderTextureFromXRRequest (id: 6 col: 000001B3CF3D2138 d: 000001B3CF51B3F8 sr: 0000000000000000)
+RenderTexture::Create (id: 6)
+IVRDeviceCallback_CreateEyeTextureResources 000001B3CF3D2138
+IVRDeviceCallback_CreateEyeTextureResources 000001B3CF51B3F8
+UnloadTime: 0.512300 ms
+RootAppLifetimeScope is configuring
+RootAppLifetimeScope is configured
+RootAppLifetimeScope is ready
+Loading scene DeoVR.XR.Core
+Loading scene NewestUI
+XRAppLifetimeScope is configuring
+XRAppLifetimeScope is configured
+XRAppLifetimeScope is ready. Parent: RootAppLifetimeScope
+Serialization depth limit 10 exceeded at 'EmojiItem.short_names'. There may be an object composition cycle in one or more of your serialized classes.
+
+Serialization hierarchy:
+11: EmojiItem.short_names
+10: EmojiItem.SkinToneList
+9: EmojiItem.SkinToneList
+8: EmojiItem.SkinToneList
+7: EmojiItem.SkinToneList
+6: EmojiItem.SkinToneList
+5: EmojiItem.SkinToneList
+4: EmojiItem.SkinToneList
+3: EmojiItem.SkinToneList
+2: EmojiItem.SkinToneList
+1: EmojiItem.SkinToneList
+0: DeoVR.Typing.Keys::EmojiKey.emotieData
+Serialization depth limit 10 exceeded at 'EmojiItem.short_names'. There may be an object composition cycle in one or more of your serialized classes.
+
+Serialization hierarchy:
+11: EmojiItem.short_names
+10: EmojiItem.SkinToneList
+9: EmojiItem.SkinToneList
+8: EmojiItem.SkinToneList
+7: EmojiItem.SkinToneList
+6: EmojiItem.SkinToneList
+5: EmojiItem.SkinToneList
+4: EmojiItem.SkinToneList
+3: EmojiItem.SkinToneList
+2: EmojiItem.SkinToneList
+1: EmojiItem.SkinToneList
+0: EmojiItem.SkinToneList
+Current VR Platform is OculusRift
+IsOculus: True
+Application version: 13.14.1
+Unique device Id: 2b1e148bb19992178151e7d6947cce18764a44bd
+Setting up TrackingUniverseSeated...
+TrackingUniverseSeated has been set.
+Antialiasing: 0
+RenderScale: 1.7
+VSyncCount: 0
+Current system is Windows 10  (10.0.19042) 64bit
+Current videocard is NVIDIA GeForce RTX 4070 Ti SUPER
+Current platform is OculusRift
+DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+Initializing Google Analytics 0.2.
+SLRAnalyticsController initialized. TrackingCode = G-XYPFYRG2XL|DAzk0PnBTKavnQKi47qd4w
+Default keybinds for RiftController successfully loaded.
+Default keybinds for QuestHandTrackingController successfully loaded.
+Default keybinds for RiftRemoteController successfully loaded.
+Default keybinds for ViveController successfully loaded.
+Default keybinds for GamepadController successfully loaded.
+[ProjectionMesh] v1.8.1 awakens
+Browser initialized.
+Camera "Main Camera" does not use a Tracked Pose Driver (Input System), so its transform will not be updated by an XR device.  In order for this to be updated, please add a Tracked Pose Driver (Input System) with bindings for position and rotation of the center eye.
+Numpad is not supported by this keyboard "Keyboard_PIN"
+Numpad is not supported by this keyboard "Keyboard_PIN"
+[AVProVideo] No camera set for UpdateMultiPassStereo component. If you are rendering in multi-pass stereo then it is recommended to set this.
+Unity v2020.3.42f1, Oculus Utilities v1.89.0, OVRPlugin v1.89.0, SDK v1.0.27.
+SystemHeadset Oculus_Link_Quest_2, API OpenXR
+OpenXR instance 0x1B3CE9C9AA0 session 0x1B3CF226890
+Current display frequency 72, available frequencies [72]
+Failed to initialize Insight Passthrough. Passthrough will be unavailable. Error Failure_NotInitialized.
+Local Dimming feature is not supported
+Found IOVRSkeletonDataProvider reference in RightOVRHand due to unassigned field.
+Found IOVRSkeletonDataProvider reference in LeftOVRHand due to unassigned field.
+[AVProVideo] Initialising AVPro Video v2.7.3 (native plugin v2.7.0f1-ultra) on NVIDIA GeForce RTX 4070 Ti SUPER/Direct3D 11.0 [level 11.1] (MT True) on WindowsPlayer
+The current MSAA level is 0, but the recommended MSAA level is 4. Switching to the recommended level.
+[OVRManager] HMDAcquired event
+[OVRManager] HMDMounted event
+[OVRManager] VrFocusAcquired event
+[OVRManager] TrackingAcquired event
+NullReferenceException: Object reference not set to an instance of an object
+  at Valve.VR.SteamVR_Input_Source.GetHandle (Valve.VR.SteamVR_Input_Sources inputSource) [0x00002] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_Single_Source.UpdateValue () [0x00034] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_In_Source_Map`1[SourceElement].ForceAddSourceToUpdateList (Valve.VR.SteamVR_Input_Sources inputSource) [0x00068] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_In_Source_Map`1[SourceElement].OnAccessSource (Valve.VR.SteamVR_Input_Sources inputSource) [0x00007] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_Source_Map`1[SourceElement].GetSourceElementForIndexer (Valve.VR.SteamVR_Input_Sources inputSource) [0x00002] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_Source_Map`1[SourceElement].get_Item (Valve.VR.SteamVR_Input_Sources inputSource) [0x00000] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_Single.GetAxis (Valve.VR.SteamVR_Input_Sources inputSource) [0x00000] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at ViveController.<.ctor>b__27_0 (System.Boolean raw) [0x0000e] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at KeyButton.checkInput (InputType inputType, System.Func`2[T,TResult] func, System.Boolean keyDown, System.Boolean rawController) [0x0003f] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at KeyButton.getKeyDown (System.Boolean raw) [0x00093] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at KeyButton.Update () [0x00000] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at DeviceController.Update () [0x00015] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ActionController.GetActivateState () [0x00015] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ActionController.Update () [0x00011] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+
+Starting Remote Api server
+Remote Api server started
+Unable to process a controller whose SampleRateHz is 0 now.
+Unable to process a controller whose SampleRateHz is 0 now.
+[Deo] LoadSettings
+XRTextureManager::RequestDestroyTexture
+XRTextureManager::RequestDestroyTexture
+XRTextureManager::RequestDestroyTexture
+XRTextureManager::RequestDestroyTexture
+XRTextureManager::RequestDestroyTexture
+XRTextureManager::RequestDestroyTexture
+NullReferenceException: Object reference not set to an instance of an object
+  at Valve.VR.SteamVR_Input_Source.GetHandle (Valve.VR.SteamVR_Input_Sources inputSource) [0x00002] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_Single_Source.UpdateValue () [0x00034] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_In_Source_Map`1[SourceElement].ForceAddSourceToUpdateList (Valve.VR.SteamVR_Input_Sources inputSource) [0x00068] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_In_Source_Map`1[SourceElement].OnAccessSource (Valve.VR.SteamVR_Input_Sources inputSource) [0x00007] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_Source_Map`1[SourceElement].GetSourceElementForIndexer (Valve.VR.SteamVR_Input_Sources inputSource) [0x00002] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_Source_Map`1[SourceElement].get_Item (Valve.VR.SteamVR_Input_Sources inputSource) [0x00000] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_Single.GetAxis (Valve.VR.SteamVR_Input_Sources inputSource) [0x00000] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at ViveController.<.ctor>b__27_1 (System.Boolean raw) [0x0000e] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at KeyButton.checkInput (InputType inputType, System.Func`2[T,TResult] func, System.Boolean keyDown, System.Boolean rawController) [0x0003f] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at KeyButton.getKeyDown (System.Boolean raw) [0x00093] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at KeyButton.Update () [0x00000] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at DeviceController.Update () [0x00015] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ActionController.GetActivateState () [0x00015] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ActionController.Update () [0x00011] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+
+ActionController_ChangeDevice GamepadController Any
+ActivateReticle
+[XR] Rendering directly to eye textures.
+XRTextureManager::RequestCreateTexture
+XRTextureManager::RequestCreateTexture
+XRTextureManager::RequestCreateTexture
+XRTextureManager::RequestCreateTexture
+XRTextureManager::RequestCreateTexture
+XRTextureManager::RequestCreateTexture
+[XR] More than 4 points[XR] More than 4 pointsXRTextureManager::SetupRenderTextureFromXRRequest (id: 7 col: 000001B430537D78 d: 000001B430539538 sr: 0000000000000000)
+RenderTexture::Create (id: 7)
+IVRDeviceCallback_CreateEyeTextureResources 000001B430537D78
+IVRDeviceCallback_CreateEyeTextureResources 000001B430539538
+XRTextureManager::SetupRenderTextureFromXRRequest (id: 8 col: 000001B43053A4F8 d: 000001B430533178 sr: 0000000000000000)
+RenderTexture::Create (id: 8)
+IVRDeviceCallback_CreateEyeTextureResources 000001B43053A4F8
+IVRDeviceCallback_CreateEyeTextureResources 000001B430533178
+XRTextureManager::SetupRenderTextureFromXRRequest (id: 9 col: 000001B430538038 d: 000001B430534678 sr: 0000000000000000)
+RenderTexture::Create (id: 9)
+IVRDeviceCallback_CreateEyeTextureResources 000001B430538038
+IVRDeviceCallback_CreateEyeTextureResources 000001B430534678
+XRTextureManager::SetupRenderTextureFromXRRequest (id: 10 col: 000001B4305343B8 d: 000001B430536B38 sr: 0000000000000000)
+RenderTexture::Create (id: 10)
+IVRDeviceCallback_CreateEyeTextureResources 000001B4305343B8
+IVRDeviceCallback_CreateEyeTextureResources 000001B430536B38
+XRTextureManager::SetupRenderTextureFromXRRequest (id: 11 col: 000001B430533E78 d: 000001B430535638 sr: 0000000000000000)
+RenderTexture::Create (id: 11)
+IVRDeviceCallback_CreateEyeTextureResources 000001B430533E78
+IVRDeviceCallback_CreateEyeTextureResources 000001B430535638
+XRTextureManager::SetupRenderTextureFromXRRequest (id: 12 col: 000001B4305382B8 d: 000001B430532978 sr: 0000000000000000)
+RenderTexture::Create (id: 12)
+IVRDeviceCallback_CreateEyeTextureResources 000001B4305382B8
+IVRDeviceCallback_CreateEyeTextureResources 000001B430532978
+NullReferenceException: Object reference not set to an instance of an object
+  at Valve.VR.SteamVR_Action_Boolean_Source.UpdateValue () [0x00028] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_In_Source_Map`1[SourceElement].ForceAddSourceToUpdateList (Valve.VR.SteamVR_Input_Sources inputSource) [0x00068] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_In_Source_Map`1[SourceElement].OnAccessSource (Valve.VR.SteamVR_Input_Sources inputSource) [0x00007] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_Source_Map`1[SourceElement].GetSourceElementForIndexer (Valve.VR.SteamVR_Input_Sources inputSource) [0x00002] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_Source_Map`1[SourceElement].get_Item (Valve.VR.SteamVR_Input_Sources inputSource) [0x00000] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_Boolean.GetState (Valve.VR.SteamVR_Input_Sources inputSource) [0x00000] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at ViveController.getKeyPress (VRControllerType controllerType, System.String actionName, System.Boolean raw) [0x00022] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ViveController.<.ctor>b__27_3 (System.Boolean raw) [0x00000] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at KeyButton.checkInput (InputType inputType, System.Func`2[T,TResult] func, System.Boolean keyDown, System.Boolean rawController) [0x0003f] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at KeyButton.getKeyDown (System.Boolean raw) [0x00093] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at KeyButton.Update () [0x00000] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ThumbController.checkInput () [0x00021] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ThumbController.GetKeyDown (ThumbPressDirection direction, System.Boolean rawController) [0x00000] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ThumbButton.Update () [0x00000] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at DeviceController.Update () [0x00015] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ActionController.GetActivateState () [0x00015] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ActionController.Update () [0x00011] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Valve.VR.SteamVR_Action_Boolean_Source.UpdateValue () [0x00028] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_In_Source_Map`1[SourceElement].ForceAddSourceToUpdateList (Valve.VR.SteamVR_Input_Sources inputSource) [0x00068] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_In_Source_Map`1[SourceElement].OnAccessSource (Valve.VR.SteamVR_Input_Sources inputSource) [0x00007] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_Source_Map`1[SourceElement].GetSourceElementForIndexer (Valve.VR.SteamVR_Input_Sources inputSource) [0x00002] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_Source_Map`1[SourceElement].get_Item (Valve.VR.SteamVR_Input_Sources inputSource) [0x00000] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_Boolean.GetState (Valve.VR.SteamVR_Input_Sources inputSource) [0x00000] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at ViveController.getKeyPress (VRControllerType controllerType, System.String actionName, System.Boolean raw) [0x00022] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ViveController.<.ctor>b__27_5 (System.Boolean raw) [0x00000] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at KeyButton.checkInput (InputType inputType, System.Func`2[T,TResult] func, System.Boolean keyDown, System.Boolean rawController) [0x0003f] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at KeyButton.getKeyDown (System.Boolean raw) [0x00093] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at KeyButton.Update () [0x00000] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ThumbController.checkInput () [0x00021] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ThumbController.GetKeyDown (ThumbPressDirection direction, System.Boolean rawController) [0x00000] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ThumbButton.Update () [0x00000] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at DeviceController.Update () [0x00015] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ActionController.GetActivateState () [0x00015] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ActionController.Update () [0x00011] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Valve.VR.SteamVR_Action_Boolean_Source.UpdateValue () [0x00028] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_In_Source_Map`1[SourceElement].ForceAddSourceToUpdateList (Valve.VR.SteamVR_Input_Sources inputSource) [0x00068] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_In_Source_Map`1[SourceElement].OnAccessSource (Valve.VR.SteamVR_Input_Sources inputSource) [0x00007] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_Source_Map`1[SourceElement].GetSourceElementForIndexer (Valve.VR.SteamVR_Input_Sources inputSource) [0x00002] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_Source_Map`1[SourceElement].get_Item (Valve.VR.SteamVR_Input_Sources inputSource) [0x00000] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_Boolean.GetState (Valve.VR.SteamVR_Input_Sources inputSource) [0x00000] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at ViveController.getKeyPress (VRControllerType controllerType, System.String actionName, System.Boolean raw) [0x00022] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ViveController.<.ctor>b__27_7 (System.Boolean raw) [0x00000] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at KeyButton.checkInput (InputType inputType, System.Func`2[T,TResult] func, System.Boolean keyDown, System.Boolean rawController) [0x0003f] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at KeyButton.getKeyDown (System.Boolean raw) [0x00093] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at KeyButton.Update () [0x00000] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ThumbController.checkInput () [0x00021] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ThumbController.GetKeyDown (ThumbPressDirection direction, System.Boolean rawController) [0x00000] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ThumbButton.Update () [0x00000] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at DeviceController.Update () [0x00015] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ActionController.GetActivateState () [0x00015] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ActionController.Update () [0x00011] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Valve.VR.SteamVR_Action_Boolean_Source.UpdateValue () [0x00028] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_In_Source_Map`1[SourceElement].ForceAddSourceToUpdateList (Valve.VR.SteamVR_Input_Sources inputSource) [0x00068] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_In_Source_Map`1[SourceElement].OnAccessSource (Valve.VR.SteamVR_Input_Sources inputSource) [0x00007] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_Source_Map`1[SourceElement].GetSourceElementForIndexer (Valve.VR.SteamVR_Input_Sources inputSource) [0x00002] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_Source_Map`1[SourceElement].get_Item (Valve.VR.SteamVR_Input_Sources inputSource) [0x00000] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_Boolean.GetState (Valve.VR.SteamVR_Input_Sources inputSource) [0x00000] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at ViveController.getKeyPress (VRControllerType controllerType, System.String actionName, System.Boolean raw) [0x00022] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ViveController.<.ctor>b__27_9 (System.Boolean raw) [0x00000] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at KeyButton.checkInput (InputType inputType, System.Func`2[T,TResult] func, System.Boolean keyDown, System.Boolean rawController) [0x0003f] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at KeyButton.getKeyDown (System.Boolean raw) [0x00093] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at KeyButton.Update () [0x00000] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ThumbController.checkInput () [0x00021] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ThumbController.GetKeyDown (ThumbPressDirection direction, System.Boolean rawController) [0x00000] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ThumbButton.Update () [0x00000] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at DeviceController.Update () [0x00015] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ActionController.GetActivateState () [0x00015] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ActionController.Update () [0x00011] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Valve.VR.SteamVR_Action_Boolean_Source.UpdateValue () [0x00028] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_In_Source_Map`1[SourceElement].ForceAddSourceToUpdateList (Valve.VR.SteamVR_Input_Sources inputSource) [0x00068] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_In_Source_Map`1[SourceElement].OnAccessSource (Valve.VR.SteamVR_Input_Sources inputSource) [0x00007] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_Source_Map`1[SourceElement].GetSourceElementForIndexer (Valve.VR.SteamVR_Input_Sources inputSource) [0x00002] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_Source_Map`1[SourceElement].get_Item (Valve.VR.SteamVR_Input_Sources inputSource) [0x00000] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_Boolean.GetState (Valve.VR.SteamVR_Input_Sources inputSource) [0x00000] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at ViveController.getKeyPress (VRControllerType controllerType, System.String actionName, System.Boolean raw) [0x00022] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ViveController.<.ctor>b__27_10 (System.Boolean raw) [0x00000] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at KeyButton.checkInput (InputType inputType, System.Func`2[T,TResult] func, System.Boolean keyDown, System.Boolean rawController) [0x0003f] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at KeyButton.getKeyDown (System.Boolean raw) [0x00093] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at KeyButton.Update () [0x00000] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at DeviceController.Update () [0x00015] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ActionController.GetActivateState () [0x00015] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ActionController.Update () [0x00011] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Valve.VR.SteamVR_Action_Boolean_Source.UpdateValue () [0x00028] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_In_Source_Map`1[SourceElement].ForceAddSourceToUpdateList (Valve.VR.SteamVR_Input_Sources inputSource) [0x00068] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_In_Source_Map`1[SourceElement].OnAccessSource (Valve.VR.SteamVR_Input_Sources inputSource) [0x00007] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_Source_Map`1[SourceElement].GetSourceElementForIndexer (Valve.VR.SteamVR_Input_Sources inputSource) [0x00002] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_Source_Map`1[SourceElement].get_Item (Valve.VR.SteamVR_Input_Sources inputSource) [0x00000] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_Boolean.GetState (Valve.VR.SteamVR_Input_Sources inputSource) [0x00000] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at ViveController.getKeyPress (VRControllerType controllerType, System.String actionName, System.Boolean raw) [0x00022] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ViveController.<.ctor>b__27_11 (System.Boolean raw) [0x00000] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at KeyButton.checkInput (InputType inputType, System.Func`2[T,TResult] func, System.Boolean keyDown, System.Boolean rawController) [0x0003f] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at KeyButton.getKeyDown (System.Boolean raw) [0x00093] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at KeyButton.Update () [0x00000] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at DeviceController.Update () [0x00015] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ActionController.GetActivateState () [0x00015] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ActionController.Update () [0x00011] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Valve.VR.SteamVR_Action_Boolean_Source.UpdateValue () [0x00028] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_In_Source_Map`1[SourceElement].ForceAddSourceToUpdateList (Valve.VR.SteamVR_Input_Sources inputSource) [0x00068] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_In_Source_Map`1[SourceElement].OnAccessSource (Valve.VR.SteamVR_Input_Sources inputSource) [0x00007] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_Source_Map`1[SourceElement].GetSourceElementForIndexer (Valve.VR.SteamVR_Input_Sources inputSource) [0x00002] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_Source_Map`1[SourceElement].get_Item (Valve.VR.SteamVR_Input_Sources inputSource) [0x00000] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_Boolean.GetState (Valve.VR.SteamVR_Input_Sources inputSource) [0x00000] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at ViveController.getKeyPress (VRControllerType controllerType, System.String actionName, System.Boolean raw) [0x00022] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ViveController.<.ctor>b__27_12 (System.Boolean raw) [0x00000] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at KeyButton.checkInput (InputType inputType, System.Func`2[T,TResult] func, System.Boolean keyDown, System.Boolean rawController) [0x0003f] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at KeyButton.getKeyDown (System.Boolean raw) [0x00093] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at KeyButton.Update () [0x00000] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at DeviceController.Update () [0x00015] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ActionController.GetActivateState () [0x00015] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ActionController.Update () [0x00011] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Valve.VR.SteamVR_Action_Boolean_Source.UpdateValue () [0x00028] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_In_Source_Map`1[SourceElement].ForceAddSourceToUpdateList (Valve.VR.SteamVR_Input_Sources inputSource) [0x00068] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_In_Source_Map`1[SourceElement].OnAccessSource (Valve.VR.SteamVR_Input_Sources inputSource) [0x00007] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_Source_Map`1[SourceElement].GetSourceElementForIndexer (Valve.VR.SteamVR_Input_Sources inputSource) [0x00002] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_Source_Map`1[SourceElement].get_Item (Valve.VR.SteamVR_Input_Sources inputSource) [0x00000] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_Boolean.GetState (Valve.VR.SteamVR_Input_Sources inputSource) [0x00000] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at ViveController.getKeyPress (VRControllerType controllerType, System.String actionName, System.Boolean raw) [0x00022] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ViveController.<.ctor>b__27_13 (System.Boolean raw) [0x00000] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at KeyButton.checkInput (InputType inputType, System.Func`2[T,TResult] func, System.Boolean keyDown, System.Boolean rawController) [0x0003f] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at KeyButton.getKeyDown (System.Boolean raw) [0x00093] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at KeyButton.Update () [0x00000] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at DeviceController.Update () [0x00015] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ActionController.GetActivateState () [0x00015] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ActionController.Update () [0x00011] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Valve.VR.SteamVR_Action_Boolean_Source.UpdateValue () [0x00028] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_In_Source_Map`1[SourceElement].ForceAddSourceToUpdateList (Valve.VR.SteamVR_Input_Sources inputSource) [0x00068] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_In_Source_Map`1[SourceElement].OnAccessSource (Valve.VR.SteamVR_Input_Sources inputSource) [0x00007] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_Source_Map`1[SourceElement].GetSourceElementForIndexer (Valve.VR.SteamVR_Input_Sources inputSource) [0x00002] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_Source_Map`1[SourceElement].get_Item (Valve.VR.SteamVR_Input_Sources inputSource) [0x00000] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_Boolean.GetState (Valve.VR.SteamVR_Input_Sources inputSource) [0x00000] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at ViveController.getKeyPress (VRControllerType controllerType, System.String actionName, System.Boolean raw) [0x00022] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ViveController.<.ctor>b__27_14 (System.Boolean raw) [0x00000] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at KeyButton.checkInput (InputType inputType, System.Func`2[T,TResult] func, System.Boolean keyDown, System.Boolean rawController) [0x0003f] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at KeyButton.getKeyDown (System.Boolean raw) [0x00093] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at KeyButton.Update () [0x00000] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at DeviceController.Update () [0x00015] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ActionController.GetActivateState () [0x00015] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ActionController.Update () [0x00011] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Valve.VR.SteamVR_Action_Boolean_Source.UpdateValue () [0x00028] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_In_Source_Map`1[SourceElement].ForceAddSourceToUpdateList (Valve.VR.SteamVR_Input_Sources inputSource) [0x00068] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_In_Source_Map`1[SourceElement].OnAccessSource (Valve.VR.SteamVR_Input_Sources inputSource) [0x00007] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_Source_Map`1[SourceElement].GetSourceElementForIndexer (Valve.VR.SteamVR_Input_Sources inputSource) [0x00002] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_Source_Map`1[SourceElement].get_Item (Valve.VR.SteamVR_Input_Sources inputSource) [0x00000] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_Boolean.GetState (Valve.VR.SteamVR_Input_Sources inputSource) [0x00000] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at ViveController.getKeyPress (VRControllerType controllerType, System.String actionName, System.Boolean raw) [0x00022] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ViveController.<.ctor>b__27_15 (System.Boolean raw) [0x00000] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at KeyButton.checkInput (InputType inputType, System.Func`2[T,TResult] func, System.Boolean keyDown, System.Boolean rawController) [0x0003f] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at KeyButton.getKeyDown (System.Boolean raw) [0x00093] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at KeyButton.Update () [0x00000] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at DeviceController.Update () [0x00015] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ActionController.GetActivateState () [0x00015] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ActionController.Update () [0x00011] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Valve.VR.SteamVR_Action_Boolean_Source.UpdateValue () [0x00028] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_In_Source_Map`1[SourceElement].ForceAddSourceToUpdateList (Valve.VR.SteamVR_Input_Sources inputSource) [0x00068] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_In_Source_Map`1[SourceElement].OnAccessSource (Valve.VR.SteamVR_Input_Sources inputSource) [0x00007] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_Source_Map`1[SourceElement].GetSourceElementForIndexer (Valve.VR.SteamVR_Input_Sources inputSource) [0x00002] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_Source_Map`1[SourceElement].get_Item (Valve.VR.SteamVR_Input_Sources inputSource) [0x00000] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_Boolean.GetState (Valve.VR.SteamVR_Input_Sources inputSource) [0x00000] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at ViveController.getKeyPress (VRControllerType controllerType, System.String actionName, System.Boolean raw) [0x00022] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ViveController.<.ctor>b__27_16 (System.Boolean raw) [0x00000] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at KeyButton.checkInput (InputType inputType, System.Func`2[T,TResult] func, System.Boolean keyDown, System.Boolean rawController) [0x0003f] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at KeyButton.getKeyDown (System.Boolean raw) [0x00093] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at KeyButton.Update () [0x00000] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at DeviceController.Update () [0x00015] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ActionController.GetActivateState () [0x00015] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ActionController.Update () [0x00011] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Valve.VR.SteamVR_Action_Boolean_Source.UpdateValue () [0x00028] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_In_Source_Map`1[SourceElement].ForceAddSourceToUpdateList (Valve.VR.SteamVR_Input_Sources inputSource) [0x00068] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_In_Source_Map`1[SourceElement].OnAccessSource (Valve.VR.SteamVR_Input_Sources inputSource) [0x00007] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_Source_Map`1[SourceElement].GetSourceElementForIndexer (Valve.VR.SteamVR_Input_Sources inputSource) [0x00002] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_Source_Map`1[SourceElement].get_Item (Valve.VR.SteamVR_Input_Sources inputSource) [0x00000] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at Valve.VR.SteamVR_Action_Boolean.GetState (Valve.VR.SteamVR_Input_Sources inputSource) [0x00000] in <5ffa66e116024f159e7a5f0b4fb11445>:0 
+  at ViveController.getKeyPress (VRControllerType controllerType, System.String actionName, System.Boolean raw) [0x00022] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ViveController.<.ctor>b__27_17 (System.Boolean raw) [0x00000] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at KeyButton.checkInput (InputType inputType, System.Func`2[T,TResult] func, System.Boolean keyDown, System.Boolean rawController) [0x0003f] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at KeyButton.getKeyDown (System.Boolean raw) [0x00093] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at KeyButton.Update () [0x00000] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at DeviceController.Update () [0x00015] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ActionController.GetActivateState () [0x00015] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+  at ActionController.Update () [0x00011] in <4ef55d9d2f2f4642ac49f507dc62eddf>:0 
+
+Loading redirects...
+Loading project: DeoVR https://www.deovr.com
+[Deo] GetProject: DeoVR
+LogFolder created C:/Users/admin/AppData/LocalLow/Deo VR/Deo VR\logtracker_f42bc5c1-ff0b-4241-a9c0-0871d25fc689
+Redirects loaded: 41
+[Deo] GetFilters
+Set reload method: ReloadMedia
+Reloading dashboard: ReloadMedia
+[Deo] GetVideos: page=1, perPage=12
+[Deo] GetTags 1 17
+[AVProVideo] Opening https://cdn-vr.deovr.com/preview/14x1/4728_300p.mp4 (offset 0) with API MediaFoundation
+[AVProVideo] Using playback path: MF-MediaEngine-Hardware (500x300@24.00)
+ActionController_ChangeDevice RiftController Right
+ActivateRightController
+OVRControllerHelp: Active controller type: Quest2 for product SteamVR/OpenXR : oculus (headset Oculus_Link_Quest_2, hand HandRight)
+OVRControllerHelp: Active controller type: Quest2 for product SteamVR/OpenXR : oculus (headset Oculus_Link_Quest_2, hand HandLeft)
+[OVRManager] OnApplicationFocus(true)
+[OVRManager] OnApplicationFocus(false)
+[AVProVideo] Opening https://cdn-vr.deovr.com/preview/14x1/12912_300p.mp4 (offset 0) with API MediaFoundation
+[AVProVideo] Opening https://cdn-vr.deovr.com/preview/14x1/4259_300p.mp4 (offset 0) with API MediaFoundation
+[AVProVideo] Shutdown
+Stopping Remote Api server
+[OVRManager] OnApplicationQuit
+Disconnecting NS...
+[XR] Destroying distortion window
+XRTextureManager::RequestDestroyTexture
+XRTextureManager::RequestDestroyTexture
+XRTextureManager::RequestDestroyTexture
+XRTextureManager::RequestDestroyTexture
+XRTextureManager::RequestDestroyTexture
+XRTextureManager::RequestDestroyTexture
+[XR] Oculus XR Plugin Display Stop
+[XR] Oculus XR Plugin Display Shutdown
+Setting up 10 worker threads for Enlighten.
+  Thread -> id: 4c20 -> priority: 1 
+  Thread -> id: 4e4c -> priority: 1 
+  Thread -> id: 41b0 -> priority: 1 
+  Thread -> id: 500c -> priority: 1 
+  Thread -> id: 10cc -> priority: 1 
+  Thread -> id: 3da4 -> priority: 1 
+  Thread -> id: 4af8 -> priority: 1 
+  Thread -> id: 168c -> priority: 1 
+  Thread -> id: 1acc -> priority: 1 
+  Thread -> id: 496c -> priority: 1 
+[OVRManager] OnDestroy
+Failed to find ButtonStyleManager. Making new one -> all styles will be default!
+NullReferenceException: Object reference not set to an instance of an object
+  at CustomButton+TransitionEntry.SetState (CustomButton+State state) [0x00240] in <6667becd825e492cbe356930579340e1>:0 
+  at CustomButton.RefreshState () [0x00082] in <6667becd825e492cbe356930579340e1>:0 
+  at CustomButton.OnPointerExit (System.Boolean forceExecute) [0x00026] in <6667becd825e492cbe356930579340e1>:0 
+  at CustomButton.RepeatHandlerCall (System.Boolean toActive, System.Boolean forceExecute) [0x0002a] in <6667becd825e492cbe356930579340e1>:0 
+  at CustomButton.OnDisable () [0x00000] in <6667becd825e492cbe356930579340e1>:0 
+
+Remote API client disconnected
+Remote Api server stopped
